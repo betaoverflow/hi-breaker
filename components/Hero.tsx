@@ -10,6 +10,7 @@ const Hero = () => {
       <p className={styles.greet}>
         Directly come to the point <span className={styles.highlight}>.</span>
       </p>
+      <p className={styles.pointer}>👇</p>
     </div>
   );
 };

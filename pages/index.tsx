@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Hero from "../components/hero";
+import Flag from "../components/Flag";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
@@ -12,6 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/512x512.png" />
       </Head>
       <Hero />
+      <Flag />
+      <Footer />
     </div>
   );
 };
