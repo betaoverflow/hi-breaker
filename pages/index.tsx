@@ -4,6 +4,7 @@ import Chat from "../components/Chat";
 import Flag from "../components/Flag";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Social from "../components/Social";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Flag />
+      <Social />
       <Chat />
       <Footer />
     </div>
