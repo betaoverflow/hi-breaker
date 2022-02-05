@@ -3,9 +3,9 @@ import Card from "./Card";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex flex-col justify-center py-18 md:w-4/6 mx-auto">
+    <div className="h-screen flex flex-col justify-center py-18 md:w-5/6 mx-auto">
       <div className="my-auto flex flex-col">
-        <p className="text-2xl md:text-5xl my-2 ml-1 font-bold">
+        <p className="md:mt-16 text-2xl md:text-5xl my-2 ml-1 font-bold">
           Hey Hooman 👋
         </p>
         <p className="text-2xl md:text-8xl font-medium mt-8 md:mt-24">
