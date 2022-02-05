@@ -7,7 +7,7 @@ const Flag = () => {
       <p className="text-2xl md:text-4xl font-bold text-center">
         What made him send you here?{" "}
       </p>
-      <div className="mt-24 md:w-3/5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-4">
+      <div className="mt-24 w-fit mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-4">
         <Card />
         <Card />
         <Card />
