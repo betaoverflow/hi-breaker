@@ -1,0 +1,87 @@
+.infoSection {
+  color: #000;
+  padding: 40px 0;
+  background: transparent;
+}
+
+.infoRow {
+  display: flex;
+  margin: 0 -15px -15px -15px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.infoCol {
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+
+  @media screen and (max-width: 768 px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.textWrapper {
+  padding-top: 0;
+  padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+  }
+}
+
+.topLine {
+  color: brown;
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+}
+
+.graphics {
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+  @media screen and (min-width: 991px) {
+    height: 500px;
+  }
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 55px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: "#f7f8fa";
+}
+
+.subTitle {
+  margin-bottom: 35px;
+  font-size: 23px;
+  line-height: 26px;
+  color: "#a9b3c1";
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  @media screen and (max-width: 991px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
