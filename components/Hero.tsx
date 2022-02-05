@@ -14,7 +14,14 @@ const Hero = () => {
         <p className="text-xl md:text-8xl font-medium mt-4 md:mt-16 mb-24">
           Directly come to the point <span className="">.</span>
         </p>
-        <Card />
+        <Card>
+          <h1 className="font-bold text-md md:text-xl">
+            Did I do something wrong?
+          </h1>
+          <p className="text-xl md:text-3xl font-bold mt-3 text-red-600">
+            Absolutely
+          </p>
+        </Card>
       </div>
       <div className="self-center">
         <p className={styles.pointer}>👇</p>
