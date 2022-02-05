@@ -1,24 +1,17 @@
 import styles from "../styles/Flag.module.scss";
+import Card from "./Card";
 
 const Flag = () => {
   return (
-    <div className={styles.container}>
-      <p className={styles.question}>Did I do something wrong?</p>
-      <p className={styles.answer}>Absolutely 😤</p>
-      <p className={styles.question}>Curious what made him send you here? </p>
-      <div className={styles.cards}>
-        <div className={styles.card}>
-          <h1> 🚩 Reason </h1>
-        </div>
-        <div className={styles.card}>
-          <h1> 🚩 Reason </h1>
-        </div>
-        <div className={styles.card}>
-          <h1> 🚩 Reason </h1>
-        </div>
-        <div className={styles.card}>
-          <h1> 🚩 Reason </h1>
-        </div>
+    <div className="h-screen mt-32">
+      <p className="text-4xl font-bold text-center">
+        What made him send you here?{" "}
+      </p>
+      <div className="mt-24 md:w-3/5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-4">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
