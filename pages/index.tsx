@@ -18,8 +18,6 @@ const Home: NextPage = () => {
       <Hero />
       <Flag />
       <Social />
-      <Chat />
-      <Chat />
       <Footer />
     </div>
   );
