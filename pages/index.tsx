@@ -20,6 +20,7 @@ const Home: NextPage = () => {
         <Hero />
         <Flag />
         <Social />
+        <Chat />
         <Mail />
       </div>
       <Footer />
