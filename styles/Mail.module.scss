@@ -1,0 +1,39 @@
+.mail {
+  margin: 2rem auto;
+  text-align: center;
+}
+.inputbox {
+  background: #ffffff;
+  box-shadow: 0px 41px 123px rgba(0, 0, 0, 0.06),
+    0px 28.4012px 78.1032px rgba(0, 0, 0, 0.0472303),
+    0px 18.5277px 46.9767px rgba(0, 0, 0, 0.0386589),
+    0px 11.0927px 26.8233px rgba(0, 0, 0, 0.0326064),
+    0px 5.80933px 14.8461px rgba(0, 0, 0, 0.0273936),
+    0px 2.39067px 8.24781px rgba(0, 0, 0, 0.0213411),
+    0px 0.549854px 4.23149px rgba(0, 0, 0, 0.0127697);
+  border-radius: 21px;
+  width: 40vw;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.button {
+  margin-left: 1rem;
+  padding: 1rem 1.5rem;
+  background: #ffd7d7;
+  box-shadow: 0px 41px 123px rgba(0, 0, 0, 0.06),
+    0px 28.4012px 78.1032px rgba(0, 0, 0, 0.0472303),
+    0px 18.5277px 46.9767px rgba(0, 0, 0, 0.0386589),
+    0px 11.0927px 26.8233px rgba(0, 0, 0, 0.0326064),
+    0px 5.80933px 14.8461px rgba(0, 0, 0, 0.0273936),
+    0px 2.39067px 8.24781px rgba(0, 0, 0, 0.0213411),
+    0px 0.549854px 4.23149px rgba(0, 0, 0, 0.0127697);
+  border-radius: 21px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .inputbox {
+    width: 80vw;
+  }
+}

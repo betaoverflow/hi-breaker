@@ -5,6 +5,7 @@ import Flag from "../components/Flag";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Social from "../components/Social";
+import Mail from "../components/Mail";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Hero />
         <Flag />
         <Social />
+        <Mail />
       </div>
       <Footer />
     </div>
