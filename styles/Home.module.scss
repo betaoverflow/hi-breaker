@@ -1,15 +1,11 @@
 .container {
-  padding: 0 2rem;
+  padding: 5rem 2rem;
+  background-color: transparent;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(252, 247, 240);
+  z-index: -10;
 }
 
 .footer {
@@ -114,4 +110,10 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.bg {
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
 }

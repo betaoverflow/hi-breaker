@@ -10,7 +10,12 @@ import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className={styles.main}>
+      <img
+        className={styles.bg}
+        src="https://res.cloudinary.com/dguy8qpzi/image/upload/v1644209300/mediamodifier_cropped_image_ziav0x.png"
+        alt=""
+      />
       <div className={styles.container}>
         <Head>
           <title>Hi Breaker</title>
