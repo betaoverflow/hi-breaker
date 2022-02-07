@@ -1,5 +1,5 @@
 .container {
-  padding: 5rem 2rem;
+  padding: 20vh 2rem;
   background-color: transparent;
 }
 
@@ -105,10 +105,13 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .container{
+    padding: 0 2rem;
   }
 }
 
