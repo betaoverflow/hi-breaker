@@ -19,6 +19,7 @@ const Mail = () => {
           <FontAwesomeIcon icon={faPaperPlane} />
         </button>
       </div>
+      <p className={styles.p}>don’t worry we won’t be sending you anything.</p>
     </div>
   );
 };
