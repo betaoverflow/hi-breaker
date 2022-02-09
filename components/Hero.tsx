@@ -4,7 +4,7 @@ import Card from "./Card";
 const Hero = () => {
   return (
     <div className={styles.container}>
-      <div className="h-screen flex flex-col justify-center py-18 md:w-5/6 mx-auto">
+      <div className="h-screen flex flex-col justify-center py-10 md:w-5/6 mx-auto">
         <div className="my-auto flex flex-col" style={{ zIndex: 10 }}>
           <p className="md:mt-16 text-2xl md:text-5xl my-2 ml-1 font-bold">
             Hey Hooman 👋
