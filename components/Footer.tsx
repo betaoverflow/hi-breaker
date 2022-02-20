@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div>
-        Based on the concept{" "}
+        Based on the concept
         <a href="https://web.archive.org/web/20131127020115/http://www.nohello.com/">
           No Hello
         </a>
