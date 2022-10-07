@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - or:
+          - "#files=1"
+          - files=README.md
+    actions:
+      merge:
+        method: merge
